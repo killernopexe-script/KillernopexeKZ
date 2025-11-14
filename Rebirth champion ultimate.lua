@@ -15,9 +15,9 @@ local player = Players.LocalPlayer
 
 -- ✅ Основное окно
 local Window = Rayfield:CreateWindow({
-	Name = "Auto Farm + Eggs",
+	Name = "Rebirth champion ultimate",
 	LoadingTitle = "Loading...",
-	LoadingSubtitle = "by Zalina",
+	LoadingSubtitle = "by killernopexeKZ",
 	ConfigurationSaving = {Enabled = true, FolderName = "AutoFarm", FileName = "Settings"},
 	KeySystem = false
 })
