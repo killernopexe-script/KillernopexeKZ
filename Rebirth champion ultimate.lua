@@ -203,7 +203,7 @@ FarmTab:CreateToggle({
 })
 
 -- Секция руд (через Knit)
-FarmTab:CreateSection("⛏️ Рулы (Knit)")
+FarmTab:CreateSection("⛏️ Руды (Knit)")
 local oreList = {
 	"cobaltOre","diamondOre","emeraldOre","goldOre","ironOre",
 	"moonstoneOre","platinumOre","rubyOre","sapphireOre",
@@ -388,7 +388,7 @@ task.spawn(function()
 						simulateTouch(orbPart)
 						
 						-- Удаляем орб сразу
-						obj:Destroy()
+						
 					end
 				end
 			end)
